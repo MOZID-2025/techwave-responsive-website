@@ -1,11 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechWave</title>
-</head>
-<body>
-    
-</body>
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="inter-font">
+    <!-- HEADER -->
+    <header class="bg-[#1a0b2e]">
+      <!-- CONTAINER -->
+      <div class="max-w-[1280px] mx-auto px-4">
+        <!-- NAV -->
+        <nav class="flex items-center justify-between py-6">
+          <!-- LOGO -->
+          <h2 class="text-3xl font-bold text-white">
+            Tech<span
+              class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent"
+              >Wave
+            </span>
+          </h2>
+
+          <!-- MENU -->
+          <ul class="hidden md:flex gap-10 text-white">
+            <li><a href="#" class="hover:text-pink-400">About</a></li>
+            <li><a href="#" class="hover:text-pink-400">Episodes</a></li>
+            <li><a href="#" class="hover:text-pink-400">Host</a></li>
+          </ul>
+
+          <!-- BUTTON -->
+          <button
+            class="px-5 py-2 rounded-full text-white font-semibold bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8]"
+          >
+            Subscribe
+          </button>
+        </nav>
+      </div>
+    </header>
+  </body>
 </html>
+
+<section>
+  <div class="bg-[url('/assets/')]">
+    <span class="badge">● Early Access Now Open</span>
+
+    <h1>
+      Structured Thinking,<br />
+      <span>Not Just Note-Taking.</span>
+    </h1>
+
+    <p>
+      A private space to store notes, links, and learning summaries — designed
+      to <br />
+      help you think clearly, connect ideas, and turn learning into long-term
+      knowledge.
+    </p>
+
+    <div class="buttons">
+      <button class="primary">
+        Start Building Your Vault <i class="fa-solid fa-arrow-right"></i>
+      </button>
+      <button class="secondary">
+        See How It Works <i class="fa-solid fa-play"></i>
+      </button>
+    </div>
+  </div>
+</section>
